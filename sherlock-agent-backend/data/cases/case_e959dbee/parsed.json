@@ -1,0 +1,192 @@
+{
+  "case_id": "case_e959dbee",
+  "meta": {
+    "source": "demo"
+  },
+  "contacts": [
+    {
+      "names": [
+        "Alice"
+      ],
+      "base_identifiers": [
+        "+111"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "PHONE",
+          "identifier": "+111",
+          "platform": null,
+          "contact_id": null
+        }
+      ]
+    },
+    {
+      "names": [
+        "Bob"
+      ],
+      "base_identifiers": [
+        "+222"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "PHONE",
+          "identifier": "+222",
+          "platform": null,
+          "contact_id": null
+        }
+      ]
+    },
+    {
+      "names": [],
+      "base_identifiers": [
+        "p1"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p1",
+          "platform": null,
+          "contact_id": null
+        }
+      ]
+    },
+    {
+      "names": [],
+      "base_identifiers": [
+        "p2"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p2",
+          "platform": null,
+          "contact_id": null
+        }
+      ]
+    },
+    {
+      "names": [],
+      "base_identifiers": [
+        "p2"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p2",
+          "platform": null,
+          "contact_id": null
+        }
+      ]
+    },
+    {
+      "names": [],
+      "base_identifiers": [
+        "p1"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p1",
+          "platform": null,
+          "contact_id": null
+        }
+      ]
+    }
+  ],
+  "chat_threads": [
+    {
+      "id": "p1|p2",
+      "participants": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p1",
+          "platform": null,
+          "contact_id": null
+        },
+        {
+          "type": "UNKNOWN",
+          "identifier": "p2",
+          "platform": null,
+          "contact_id": null
+        }
+      ],
+      "messages": [
+        {
+          "id": null,
+          "from": {
+            "type": "UNKNOWN",
+            "identifier": "p1",
+            "platform": null,
+            "contact_id": null
+          },
+          "subject": null,
+          "body": "meet at 9pm",
+          "timestamp": 0,
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "p2|p1",
+      "participants": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p2",
+          "platform": null,
+          "contact_id": null
+        },
+        {
+          "type": "UNKNOWN",
+          "identifier": "p1",
+          "platform": null,
+          "contact_id": null
+        }
+      ],
+      "messages": [
+        {
+          "id": null,
+          "from": {
+            "type": "UNKNOWN",
+            "identifier": "p2",
+            "platform": null,
+            "contact_id": null
+          },
+          "subject": null,
+          "body": "ok bring package",
+          "timestamp": 0,
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "files": [],
+  "events": [
+    {
+      "id": null,
+      "type": "message",
+      "timestamp": 0,
+      "brief": "meet at 9pm",
+      "ref": {
+        "type": "message",
+        "id": null
+      }
+    },
+    {
+      "id": null,
+      "type": "message",
+      "timestamp": 0,
+      "brief": "ok bring package",
+      "ref": {
+        "type": "message",
+        "id": null
+      }
+    }
+  ],
+  "parse_warnings": []
+}

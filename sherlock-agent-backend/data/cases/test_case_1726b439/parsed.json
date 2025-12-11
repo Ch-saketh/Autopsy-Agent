@@ -1,0 +1,94 @@
+{
+  "case_id": "test_case_1726b439",
+  "meta": {
+    "source": "demo"
+  },
+  "contacts": [
+    {
+      "names": [
+        "Alice"
+      ],
+      "base_identifiers": [
+        "+111"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "PHONE",
+          "identifier": "+111"
+        }
+      ]
+    },
+    {
+      "names": [
+        "Bob"
+      ],
+      "base_identifiers": [
+        "+222"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "PHONE",
+          "identifier": "+222"
+        }
+      ]
+    },
+    {
+      "names": [],
+      "base_identifiers": [
+        "p1"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p1"
+        }
+      ]
+    },
+    {
+      "names": [],
+      "base_identifiers": [
+        "p2"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p2"
+        }
+      ]
+    },
+    {
+      "names": [],
+      "base_identifiers": [
+        "p2"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p2"
+        }
+      ]
+    },
+    {
+      "names": [],
+      "base_identifiers": [
+        "p1"
+      ],
+      "device_owner": false,
+      "accounts": [
+        {
+          "type": "UNKNOWN",
+          "identifier": "p1"
+        }
+      ]
+    }
+  ],
+  "chat_threads": [
+    {
+      "id": "p1|p2",
+      "participants": [
+        

@@ -1,0 +1,58 @@
+{
+  "case_id": "test_case_914eb363",
+  "meta": {
+    "source": "demo"
+  },
+  "contacts": [
+    {
+      "id": "p1",
+      "name": "Alice",
+      "number": "+111"
+    },
+    {
+      "id": "p2",
+      "name": "Bob",
+      "number": "+222"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m1",
+      "sender": "p1",
+      "recipient": "p2",
+      "text": "meet at 9pm",
+      "timestamp": "2025-12-07T21:00:00Z"
+    },
+    {
+      "id": "m2",
+      "sender": "p2",
+      "recipient": "p1",
+      "text": "ok bring package",
+      "timestamp": "2025-12-07T21:05:00Z"
+    }
+  ],
+  "media": [],
+  "events": [
+    {
+      "id": "m1",
+      "type": "message",
+      "timestamp": "2025-12-07T21:00:00Z",
+      "brief": "meet at 9pm",
+      "ref": {
+        "type": "message",
+        "id": "m1"
+      }
+    },
+    {
+      "id": "m2",
+      "type": "message",
+      "timestamp": "2025-12-07T21:05:00Z",
+      "brief": "ok bring package",
+      "ref": {
+        "type": "message",
+        "id": "m2"
+      }
+    }
+  ],
+  "parse_warnings": []
+}

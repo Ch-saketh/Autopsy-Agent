@@ -1,0 +1,15 @@
+{
+  "model": "text_threat",
+  "generated_at": "2025-12-09T20:39:54.319737Z",
+  "results": [
+    {
+      "message_id": null,
+      "_thread_id": "p2|p1",
+      "text": "ok bring package",
+      "keywords": [
+        "package"
+      ],
+      "score": 1.0
+    }
+  ]
+}
